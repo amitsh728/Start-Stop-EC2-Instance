@@ -13,7 +13,7 @@ These scripts could be triggered from events like cronjob or cloudwatch rules.
 5. Click on Create Rule.
 6. Configure the event source to trigger at a particular time.
 7. Configure the targets to trigger the lambda functions (to start/stop instances).
-8. Configure the Input for lambda as  constant json: {"InstanceID":"<instanceID of the concerned instance>"}
+8. Configure the Input for lambda as  constant json: {"InstanceID":"\<instanceID of the concerned instance\>"}
      >Example:  {"InstanceID":"i-09301238312312431"}
 
 ### Use Case:
